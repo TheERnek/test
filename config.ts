@@ -7,12 +7,12 @@ export const window = {
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'Aurora Launcher',
+    title: 'ERnek Launcher',
 };
 
 export const api = {
-    ws: 'ws://127.0.0.1:1370/ws',
-    web: 'http://127.0.0.1:1370',
+    ws: 'ws://185.180.230.185:1370/ws',
+    web: 'http://185.180.230.185:1370',
     publicKey,
 };
 
