@@ -11,7 +11,7 @@ await build({
     publish: [
         {
             provider: "generic",
-            url: new URL ("/files/release", api.web).toString(),
+            "url": "http://185.180.230.185:1370/gameFiles/release",
             channel: "latest"
         }
     ],
